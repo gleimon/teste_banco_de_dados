@@ -1,0 +1,9 @@
+ALTER TABLE sala
+ADD COLUMN andar VARCHAR (45)
+
+ALTER TABLE sala
+DROP COLUMN andar 
+
+DROP TABLE sala
+
+DROP DATABASE escola
